@@ -16,7 +16,6 @@ import java.io.IOException;
 
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
-    // inject dependencies
     @Autowired
     private JwtTokenProvider tokenProvider;
 
